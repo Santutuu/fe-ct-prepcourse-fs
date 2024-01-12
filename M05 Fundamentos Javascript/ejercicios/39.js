@@ -1,8 +1,9 @@
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
-function numeroRandom() {
-  // Genera un número al azar entre 0 y 1 y retórnalo.
+function redondearNumero(num) {
+  return (Math.round(num));
+  // Redondea "num" al entero más próximo y retórnalo.
   // Tu código:
 }
 
-module.exports = numeroRandom;
+module.exports = redondearNumero;

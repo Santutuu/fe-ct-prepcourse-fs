@@ -1,8 +1,9 @@
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
-function redondearNumero(num) {
-  // Redondea "num" al entero más próximo y retórnalo.
+function redondearHaciaArriba(num) {
+  return Math.ceil(num);
+  // Redondea "num" hacia arriba y retórnalo.
   // Tu código:
 }
 
-module.exports = redondearNumero;
+module.exports = redondearHaciaArriba;

@@ -1,8 +1,10 @@
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
-function redondearHaciaArriba(num) {
-  // Redondea "num" hacia arriba y retórnalo.
+function numeroRandom() {
+  return Math.random();
+  // Genera un número al azar entre 0 y 1 y retórnalo.
   // Tu código:
+  //21, 47
 }
 
-module.exports = redondearHaciaArriba;
+module.exports = numeroRandom;

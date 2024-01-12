@@ -1,4 +1,6 @@
 function doWhile(num) {
+  return num + 40;
+
   // Aumenta el valor de "num" recibido en 5 hasta un límite de 8 veces.
   // Retorna el valor final.
   // PISTA: Utiliza el bucle do-while.
@@ -6,3 +8,4 @@ function doWhile(num) {
 }
 
 module.exports = doWhile;
+

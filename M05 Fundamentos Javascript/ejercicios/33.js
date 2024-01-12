@@ -1,4 +1,18 @@
 function esNumeroPrimo(numero) {
+  var contador=0
+  for (i=numero; i=1 ; i--){
+
+    if(numero % i===0);
+    
+    contador++;
+
+    if(contador>1){
+      return true;
+    }
+
+  }
+
+  return false;
   // La función recibe un argumento "numero".
   // Determina si este corresponde a un número primo.
   // De ser así, retorna true.

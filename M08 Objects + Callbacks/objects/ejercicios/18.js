@@ -1,4 +1,9 @@
 function agregarAmigo(objetoUsuario, nuevoAmigo) {
+  
+  
+  objetoUsuario.amigos.push(nuevoAmigo);
+
+  return objetoUsuario;
   // El parámetro "objetoUsuario" tiene una propiedad llamada "amigos" igual a un arreglo.
   // Debes agregar el "nuevoAmigo" al final de este arreglo.
   // Retornar el objeto.
@@ -6,3 +11,5 @@ function agregarAmigo(objetoUsuario, nuevoAmigo) {
 }
 
 module.exports = agregarAmigo;
+
+

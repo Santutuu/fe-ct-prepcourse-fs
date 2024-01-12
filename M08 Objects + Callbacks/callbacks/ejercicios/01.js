@@ -1,7 +1,32 @@
 function invocarCallback(cb) {
-  // Invoca/ejecuta el callback `cb`.
-  // NOTA: no debes retornar nada.
-  // Tu código:
+
+  cb();
+
 }
+
+  var saludo = function(){
+    console.log('hola');
+  }
+  
+  invocarCallback(saludo);
+
+
+
+
+    // Invoca/ejecuta el callback `cb`.
+    // Llama al callback
+    // NOTA: no debes retornar nada.
+  
+  
+
+
+
+  
+ 
+
+
+
+
+
 
 module.exports = invocarCallback;

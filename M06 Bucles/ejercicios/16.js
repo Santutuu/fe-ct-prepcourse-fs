@@ -1,4 +1,18 @@
 function saludo(idioma) {
+  switch(idioma) {
+    case "aleman":
+      return 'Guten Tag!';
+      case "mandarin":
+        return 'Ni Hao!';
+        case "ingles":
+          return 'Hello!';
+          default:
+            return 'Hola!';
+           
+ 
+  }
+
+
   // Retornar un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!".
   // Si "idioma" es "mandarin", devuelve "Ni Hao!".

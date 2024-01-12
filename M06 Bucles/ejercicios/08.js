@@ -1,4 +1,11 @@
 function esPositivoOInferiorA10(a) {
+
+  if (a >= 0){
+    return true;
+  } else {
+    return false;
+  }
+  
   // La función recibe un número "a" por argumento.
   // Retorna true si es positivo o menor que 10.
   // Retorna false en caso contrario.
